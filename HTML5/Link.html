@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "en"><!--W3C VALIDATOR APPROVED ON APRIL 01,2022 **the frameborder attribute on the iframe element is obsolete. Use CSS instead. -->
+<!--This is a comment on hmtl -->
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="keywords" content="HTML 5 basics ">
+		<meta name = "description" content ="How to use links and add images">
+		<meta name="author" content="Julio Flores">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>	How to use links</title> <!--tag to set the name on the tab-->
+	</head>
+	<!--<body style="background-color:#1a1a1a;color:white">-->
+	<body>
+		<header>
+			<h1>Where did I take my first HTML course?</h1>
+			<p>
+				If you had that question just click on this button to find the tutorial
+				<a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&list=PLxOuWL8wbuNX5yE-LlEAKE1Dez9BtxGbf&index=2&t=3572s">
+					Watch Tutorial in same tab
+				</a>
+				<!--
+				<a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&list=PLxOuWL8wbuNX5yE-LlEAKE1Dez9BtxGbf&index=2&t=3572s">
+				<button>Watch Tutorial in same tab</button>
+				Is it valid to make <a> parent of <button>? NOPE Error: The element button must not appear as a descendant of the a element.-->
+				or 
+				<a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&list=PLxOuWL8wbuNX5yE-LlEAKE1Dez9BtxGbf&index=2&t=3572s" target = "_blank">
+					Watch Tutorial in a new tab <!--Is it valid to add make <a> parent of <button>?-->
+				</a><br>
+				What if we check the first hmtl file I created?<br>
+				<a href = "Hello_world.html">This is the first creation</a><br>
+				If you still want more links let me share with you this excel file.<br>
+				<a href = "CALCULOS_DE_TERRENO.xlsx">Excel formula to find the interest for a loan</a><br>
+			</p>
+		</header>
+		
+		
+		<main>
+		<h1>How to add images?</h1>
+		<p>
+			In order to add an image we use the tag <strong>"img"</strong> and the attribute <strong>"src"</strong><br>
+			<img src = "controlSNES.png" alt="A SNES gamepad" width = "500">
+		</p>
+		
+		<h3>How to add videos?</h3>
+		<p>
+			In order to add videos we use the tag <strong>"video"</strong> and the attribute <strong>"src"</strong><br>
+			The text between the &lt;video&gt; and &lt;video&gt; tags will only be displayed in browsers <br>
+			that do not support the <em>video element</em> or if the source address is wrong or doesn't exist.<br>
+				<video src = "ROGER_OUTFITS.mp4" width = "500" controls>This video cannot be displayed </video>
+		</p>
+		
+		<h3>PRO TIPS:</h3>
+		<p>-Add thumbnail using the attribute <strong>Poster="any image.jpg"</strong><br>
+			<video src = "ROGER_OUTFITS.mp4" width = "500" controls
+			poster = "ROGER_OUTFITS_THUMBNAIL.jpg">This video cannot be displayed </video>
+			<br>-You can add more than 1 source for the video:<br>
+			The &lt;video&gt; tag contains one or more &lt;source&gt; tags with different video sources. <br>
+			The browser will choose the first source it supports or the first one that still exists.<br>
+			Example:  ([]are &lt; &gt;)<br>
+			 [video width="320" height="240" controls]
+			 [source src="movie.mp4" type="video/mp4"]
+			 [source src="movie.ogg" type="video/ogg"]
+			Your browser does not support the video tag.
+			[/video]<br>
+			 <video width="320" height="240" controls poster = "ROGER_OUTFITS_THUMBNAIL_V2.jpg">
+				<source src="ROGER_OUTFITS.errorXD" type="video/mp4">
+				<source src="ROGER_OUTFITS_V2.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+	
+			</video> 
+		</p>
+		
+		<p>
+			-Add A YOUTUBE VIDEO:<br>
+			Find the video you like click on "SHARE" and click on <em>"Instertar/Embed"</em> <br>
+			copy and paste the code it gives you.<br>
+			<!--NEXT LINE is the code youtube gave me-->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</p>
+		</main>
+		
+		
+		<footer>
+			<h2>summary</h2>
+			<p>Images and videos share some attributes like: src, width and height,</p>
+		</footer>
+		
+		<!--b>-This is the tag <address>to add contact information The text in the <address> element usually renders in 
+		italic, and browsers will always add a line breaks before and after the <address> element.-->
+		<div style="background-color:Cornsilk; color:DarkSlateGray">
+			<address>
+			Send an email to the author: <a href="mailto:cesar4091@gmail.com">Julio Flores </a><br>
+			Visit me at:<br>
+			<a href="My_Homepage.html">Julio's homepage</a> <br>
+			San Luis, San Pedro Ayampuc.<br>
+			</address>
+		</div>
+	</body>
+</html>
