@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang ="en">
-<!--This is a comment on hmtl -->
+<html lang ="en"><!--W3C validated on April 04,2022-->
 	<head>
 		<meta charset = "UTF-8">
 		<meta name="keywords" content="HTML 5 basic base ">
@@ -19,23 +18,29 @@
 		
 		<form style ="background-color:#ccff99">
 			<label for="fname">First name:</label>
-			<input id="fname" type = "text" value="Type here">
-			<label for="lname">Last name:</label>
-			<input id="lname" type = "text" value="Type here">
+			<input id="fname" type = "text"><br>
+			<label for="lname">>Last name:</label>
+			<input id="lname" type = "text" >
 			<br>
 			<label for="DOB">Date Of Birth:</label>
 			<input id="DOB" type = "date">
 			<br>
-			<label for="gender">Gender:</label>
-			<br>
+			
 			<p>
-				male:<input name = "gender" type = "radio" >
-				female:<input name = "gender" type = "radio" >
+				<label for ="other">Gender:</label><br>
+				<label for="male">male:</label>
+					<input id="male" name = "gender" type = "radio" value ="male">
+				<label for="female">female:</label>
+					<input id="female" name = "gender" type = "radio" value ="female">
+				<label for="other">other:</label>
+					<input id="other" name = "gender" type = "radio" value ="other">
 			</p>
 			<label for="EmailAddress">Email:</label>
 			<input type = "email" id = "EmailAddress">
 		</form>
 			<hr>
+			
+			
 		<h3>Create your credentials</h3>
 		<form style ="background-color:#ccff50">
 			<label for="Username">New username:</label>
