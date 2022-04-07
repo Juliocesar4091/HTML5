@@ -1,0 +1,57 @@
+/*This is a comment in CSS*/
+
+/*
+-This a selector: #id, .class,element.class,*,element, (element,element)
+En este ejemplo:
+-Property es COLOR
+-Value es WHITE
+p{
+	color :  white;
+}
+*/
+
+h1,h2
+{
+	color:lightgreen;
+}
+
+ /*This is a shorthand mode for backgrounds*/
+#navMenu
+{
+	background: rgb(255, 213, 208, 0.5) url("../Media/pikachu.gif") repeat fixed;
+	text-align : center;
+	border:2px solid black;
+	color:black;
+}
+
+/*This is the normal way.
+#navMenu
+{
+	background-color : rgb(255, 213, 208, 0.5);
+	background-image: url("pikachu.gif");
+	background-attachment : fixed;
+	text-align : center;
+	border:2px solid black;
+}*/
+
+body
+{
+	background-image: url("../Media/seamless_texture.jpg");
+	/*background-repeat:repeat-y;  // y repeats image vertically x:horizontally */ 
+	background-color:black;
+	color : white;
+}
+
+/*header Why this doesn't work?
+{
+	background-color:black
+	align-content : center;
+}*/
+
+div{
+	background-image: url("../Media/pikachu.gif");
+	background-color : rgb(255, 213, 208, 0.5); 
+	border:2px solid black;
+	text-align : center;
+	color:black;
+}

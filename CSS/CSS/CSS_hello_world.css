@@ -1,0 +1,27 @@
+/*This is a comment in CSS*/
+p/*This the selector: #id, .class,element.class,*,element, (element,element)*/
+{
+	color/*Property*/:darkslategray; /*Value*/
+}
+h1,h2
+{
+	color:red;
+}
+
+body
+{
+	background-color:azure;
+}
+
+header /*Why this doesn't work? it wasn't working cause I forgot ; */
+{
+	background-color : rgb(255, 213, 208, 0.5); 
+	text-align : center;
+	border:2px solid black;
+}
+
+div{
+	background-color : rgb(255, 213, 208, 0.5); 
+	border:2px solid black;
+	text-align : center;
+}
