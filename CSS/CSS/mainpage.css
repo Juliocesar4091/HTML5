@@ -1,0 +1,52 @@
+/*This is a comment in CSS*/
+
+/*
+-This a selector: #id, .class,element.class,*,element, (element,element)
+En este ejemplo:
+-Property es COLOR
+-Value es WHITE
+p{
+	color :  white;
+}
+*/
+
+h1,h2
+{
+	color:black;
+}
+
+#navMenu
+{
+	background-color : rgb(255, 213, 208, 1); 
+	background-image: url("../Media/PikachuHappy.png");
+	background-repeat:no-repeat;
+	background-position:left;
+	height:200px;
+	text-align : center;
+	border:2px solid black;
+	color:black;
+}
+
+body
+{
+	background-color:azure;
+	color : black;
+}
+
+/*header Why this doesn't work?
+{
+	background-color:black
+	align-content : center;
+}*/
+
+div{
+	background-image: url("../Media/PikachuHappy.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:200px;
+	background-color : rgb(255, 213, 208, 1); 
+	border:2px solid black;
+	text-align : center;
+	color:black;
+	height:200px;
+}
