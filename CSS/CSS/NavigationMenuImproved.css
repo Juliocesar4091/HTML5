@@ -1,0 +1,97 @@
+/*This is a comment in CSS*/
+
+/*
+-This a selector: #id, .class,element.class,*,element, (element,element)
+En este ejemplo:
+-Property es COLOR
+-Value es WHITE
+p{
+	color :  white;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+
+ul{
+	width:100%;
+	height: 25px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:yellow;
+	position:fixed;
+}
+
+li a{
+	float : left;
+	width:25%;
+	color:white;
+	text-align:center;
+	height:30px;
+	text-decoration:none;
+	display:block;
+	background-color: #333;
+	border-left:2px solid white;
+	padding-top:5px;
+}
+
+a:hover{
+	height: 40px;
+	background-color: #111;
+	font-size:20px;
+}
+a:active{
+	color: red;
+	font-size:15px;
+}
+
+body
+{
+	background-color:lightpink;
+	color : black;
+	margin:0px;
+	padding : 0px;
+}
+
+main{
+	padding-top: 50px;
+	margin:0px 10px;
+}
+
+
+h1,h2
+{
+	color:darkred;
+	text-transform:capitalize;
+}
+
+
+.ParagraphInsideDiv{
+	background-color:white;
+	text-align:justify;
+	padding : 10px 10px 10px 10px;
+	text-indent:25px;
+	border:4px solid black;
+	font-family: Monaco,"Times New Roman", serif;
+}
+
+
+#contact_info{
+	background-image: url("../Media/PikachuHappy.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:200px;
+	background-color : rgb(255, 213, 208, 1); 
+	border:2px solid black;
+	border-radius: 75%;
+	text-align : center;
+	color:black;
+	height:200px;
+	margin: 2% 25%;
+}
+
+address{
+	padding: 50px 0px;
+}
