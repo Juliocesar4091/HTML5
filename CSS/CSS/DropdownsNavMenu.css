@@ -1,0 +1,154 @@
+/*This is a comment in CSS*/
+
+/*
+-This a selector: #id, .class,element.class,*,element, (element,element)
+En este ejemplo:
+-Property es COLOR
+-Value es WHITE
+p{
+	color :  white;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+
+ul{
+	width:100%;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:yellow;
+	position:fixed;
+}
+
+li {
+	float : left;
+	width:25%;
+	height:30px;
+	display:block;
+	background-color: #333;
+	border-left:2px solid white;
+	padding-top:5px;
+	text-align:center;
+}
+li a{
+	color:white;
+	text-align:center;
+	height:30px;
+	text-decoration:none;
+	padding-top:5px;
+}
+
+
+.navMenu:hover{
+	height: 40px;
+	background-color: #111;
+	font-size:20px;
+}
+.navMenu:active{
+	color: red;
+	font-size:15px;
+}
+
+body
+{
+	background-color:AliceBlue;
+	color : black;
+	margin:0px;
+	padding : 0px;
+}
+
+main{
+	padding-top: 50px;
+	margin:0px 10px;
+}
+
+
+h1,h2
+{
+	color:darkred;
+	text-transform:capitalize;
+}
+
+/*Basic Dropdown*/
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:black;
+	min-width:160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+	display:block;
+	color:white;
+}
+
+/*Dropdown menu*/
+
+.dropdownMenu {
+	display:none;
+}
+
+.menuTrigger{
+	display: Inline-block;
+	background-color :  yellow;
+}
+
+.menuTrigger:hover .dropdownMenu{
+	display : block;
+	background-color:white;
+}
+
+.dropdownMenu a {
+	display : block;
+}
+
+/*Dropdown in Navigation menu*/
+
+.subMenu a{
+	display:block;
+	background-color:darkgray;
+}
+
+.subMenu{
+	display:none;
+}
+
+
+.mainMenu:hover .subMenu{
+	display:block;
+}
+
+.subMenu a:hover{
+	background-color:black;
+}
+
+
+
+#contact_info{
+	background-image: url("../Media/PikachuHappy.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:200px;
+	background-color : rgb(255, 213, 208, 1); 
+	border:2px solid black;
+	border-radius: 75%;
+	text-align : center;
+	color:black;
+	height:200px;
+	margin: 2% 25%;
+}
+
+address{
+	padding: 50px 0px;
+}
