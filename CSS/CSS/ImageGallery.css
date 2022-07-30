@@ -133,11 +133,12 @@ div.desc {
   text-align: center;
 }
 
+
 #contact_info{
 	background-image: url("../Media/PikachuHappy.png");
 	background-repeat:no-repeat;
 	background-position:right;
-	display:inline-block;
+	display:block;
 	height:200px;
 	background-color : rgb(255, 213, 208, 1); 
 	border:2px solid black;
