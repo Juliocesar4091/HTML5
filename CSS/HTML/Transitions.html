@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang ="en">
+<!--This is a comment on hmtl -->
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="keywords" content="CSS, tutorial">
+		<meta name = "description" content ="Blocks theory on CSS">
+		<meta name="author" content="Julio Flores">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>	Style Forms </title> <!--tag to set the name on the tab-->
+		<link rel="stylesheet" href="../CSS/Transitions.css"/>
+	</head>
+	<!--<body style="background-color:#1a1a1a;color:white">-->
+	<body>
+		<header id="navMenu">
+				<ul>
+					<li><a class="navMenu" href="./LearningCSS_mainpage.html">Home</a></li>
+					<li><a class="navMenu" href=" ./NavigationMenu.html">First Nav Menu</a></li>
+					<li ><a style="background-color:green;" class="navMenu" href="./NavigationImproved.html">Nav Menu Improved</a></li>
+					<li><a class="navMenu" href="./VerticalNavMenu.html">Vertical Nav Menu</a></li>
+				</ul>
+		</header>
+		
+		<main>
+			<h2>FORMS</h2>
+			<p>
+				The look of an HTML form can be greatly improved with CSS.
+			</p>
+			<form>
+				<h3 id="title">CREA TU PERFIL</h3>
+				<label for="fname"> First Name</label>
+				<input id="fname" type = "text" placeholder="Type in your name...">
+				<label for="lname"> First Name</label>
+				<input id="lname" type = "text" placeholder="Type in your last name...">
+				<br>
+				<label for="gender">Gender</label>
+				<select id="gender" name="gender">
+					<option value="Female"> Female</option>
+					<option value="Male"> Male</option>
+				</select>
+				<br>
+				<label for="dob"> Date of birth:</label>
+				<input type="date" name="dob">
+				<br>
+				<label for="phone"> Phone number:</label>
+				<input type="number" name="phone">
+				<br>
+				<label for="email">What's your email? </label>
+				<input type="email" name="email" placeholder="youremail@example.com">
+				<br>
+				
+				<br>
+				<input class="send"type="submit" value="Submit">
+			</form>
+
+		</main>
+		
+		<footer>
+		<!--b>-This is the tag <address>to add contact information The text in the <address> element usually renders in 
+		italic, and browsers will always add a line break before and after the <address> element.-->
+			<div id="contact_info"><!--style="background-color:Cornsilk; color:DarkSlateGray"> -->
+				<address>
+				Send an email to the author: <a href="mailto:cesar4091@gmail.com">Julio Flores </a><br>
+				Visit me at:<br>
+				<a href="./LearningCSS_mainpage.html">CSS's homepage</a> <br>
+				Guatemala, Ciudad de Guatemala.<br>
+				</address>
+			</div>
+		</footer>
+	</body>
+</html>
